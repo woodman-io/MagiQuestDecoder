@@ -29,6 +29,10 @@ If your sketch is inside `magiquest-sensor-irremote/`, the IDE may find the libr
 - **IR receiver** (e.g. 38 kHz demodulator) output connected to any **digital pin** (e.g. **A0**).
 - **VCC** and **GND** as per the receiver module. No other libraries or hardware required.
 
+Wiring diagram (from [arduino-magiquest](https://github.com/patricknevindwyer/arduino-magiquest)):
+
+![Basic IR receiver wiring](images/basic_ir_receiver_bb.png)
+
 ## Usage
 
 ```cpp
